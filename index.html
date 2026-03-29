@@ -145,6 +145,28 @@
             color: white;
         }
 
+        .explanation-bar {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+        }
+
+        .explanation-content {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .explanation-content p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .explanation-content strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
         .container {
             max-width: 1600px;
             margin: 0 auto;
@@ -476,6 +498,12 @@
                 <button class="filter-btn" onclick="setCategory('video')" data-cat="video">Videos</button>
                 <button class="filter-btn" onclick="setCategory('screenshot')" data-cat="screenshot">Screenshots</button>
             </div>
+        </div>
+    </div>
+
+    <div class="explanation-bar">
+        <div class="explanation-content">
+            <p><strong>Forensische Dokumentation:</strong> Diese Sammlung enthält Screenshots zur Untersuchung von Indikatoren für KI-generierte Inhalte (ab 2019 dokumentiert). Alle Artefakte wurden manuell erhoben und entsprechen den Standards der Chain-of-Custody. <strong>Trennung von Beobachtung und Interpretation:</strong> Die hier gezeigten Screenshots stellen primäre Evidenz dar – Schlussfolgerungen erfolgen separat und nachweisbasiert.</p>
         </div>
     </div>
 
